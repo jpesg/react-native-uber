@@ -10,8 +10,6 @@ import { NavigationContainer, StackActions } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import MapScreen from "./screens/MapScreen";
 import EatsScreen from "./screens/EatsScreen";
-//3:04
-// /https://www.youtube.com/watch?v=bvn_HYpix6s&ab_channel=SonnySangha
 export default function App() {
   const Stack = createStackNavigator();
   return (
